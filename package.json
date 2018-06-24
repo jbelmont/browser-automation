@@ -1,0 +1,29 @@
+{
+  "name": "browser-automation",
+  "version": "1.0.0",
+  "description": "A repository looking at newer options for browser automation with Cypress.io and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbelmont/browser-automation.git"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbelmont/browser-automation/issues"
+  },
+  "homepage": "https://github.com/jbelmont/browser-automation#readme",
+  "devDependencies": {
+    "cypress": "^3.0.1",
+    "jest": "^23.1.0",
+    "puppeteer": "^1.5.0"
+  }
+}
